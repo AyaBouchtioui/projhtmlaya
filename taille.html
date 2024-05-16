@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>taille  Form Tutorial in html css</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  
+    <style media="screen">
+    
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+
+body{
+     min-height: 100vh;
+   background:url(https://images.unsplash.com/photo-1673131158657-4404fd1f041a?q=80&w=1000&auto=format&fit=crop&=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ymlqb3V4fGVufDB8fDB8fHww) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+form{
+    height: 600px;
+    width: 450px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+.warapper a{
+  display: inline-block;
+  margin-left: 65%;
+  margin-top: 2%;
+  padding: 10px 20px;
+  background-color:beige;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30%;
+  width: 30%;
+  text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+         <div class="warapper">
+    <h1>La taille de ma Bague</h1>
+    
+       
+        <table>
+            <tr>
+              <th> Taille</th>
+              <th>Tour de bague (mm)</th>
+            <th>Diamètre (mm)</th>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>49.3</td>
+              <td>15.7 </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td> 51.8 </td>
+              <td>$16.5</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td> 54.4  </td>
+              <td>17.3</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>56.5 </td>
+              <td>$18.1 </td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td> 59.5  </td>
+              <td>18.9</td>
+            </tr>
+             <tr>
+              <td>10</td>
+              <td> 62.1</td>
+              <td>19.8</td>
+            </tr>
+             <tr>
+              <td>11</td>
+              <td>64.6</td>
+              <td>20.0</td>
+            </tr>
+             <tr>
+              <td>12</td>
+              <td>67.2</td>
+              <td>21.4</td>
+            </tr>
+          </table>
+        
+        <a href="./home.html" class="button">OK</a>
+         </div>
+        
+    </form>
+</body>
+</html>
